@@ -1,0 +1,64 @@
+/* css is a cascading styling sheet use in styling the html document 
+to give it a great look when publish with a browser */
+
+h1{
+    background-color: rgb(87, 233, 207);
+    color: purple;
+    font-size: 30px;
+    font-weight: 800;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding: 40px 40px 40px 40px;
+    width: 50%;
+}
+
+h2#test_status{
+    margin: 0 0 0 0;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0,212,255,0.7)50%,
+    rgba(120,9,121,0.7));
+    font-size: 60px;
+    color: whitesmoke;
+    width: 50%;
+}
+
+div#test {
+    background: linear-gradient(0deg, rgba(65,9,121,0.7)50%,
+    rgba(0,212,255,0.7));
+    border: 0;
+    width: 50%;
+    padding: 40px 40px 40px 40px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+    font-size: 20px;
+    /*border-radius: 20px;*/
+}
+
+.ch{
+    background-color: rgb(113, 15, 233);
+    color: blue;
+    border: pink 2px solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+button{
+    background-color: whitesmoke;
+    font-family: monospace;
+    color: blue;
+    font-size: medium;
+    border-radius: 10px;
+    border: rgb(16, 211, 81) 2px solid;
+    width: 300px;
+}
+
+button:hover{
+    background-color: rgb(185, 43, 190);
+}
+choices{
+    color: firebrick;
+}
